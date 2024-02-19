@@ -37,8 +37,8 @@ func JustRunTheGame(shoeCount int) {
 }
 
 func main() {
-	fmt.Printf("TotalHands,WinCount,LossCount,TieCount,MaxWinStreak,MaxLossStreak,MaxTieStreak,WinPercentage,LossPercentage,TiePercentage,Bankroll\n")
-	Player := NewPlayer(nil, 25000, 50, 200000)
+	fmt.Printf("TotalHands,WinCount,LossCount,TieCount,MaxWinStreak,MaxLossStreak,MaxTieStreak,WinPercentage,LossPercentage,TiePercentage,MaxBet,Bankroll\n")
+	Player := NewPlayer(nil, 500000, 10, 5000000)
 
 	for i := 0; i < 1500; i++ {
 		//fmt.Println("Starting a new game - #", i+1)
